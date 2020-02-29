@@ -24,7 +24,7 @@ class ExampleService: Service() {
                 .setContentIntent(pendingIntent)
                 .build()
 
-//            startForeground(1, notification)
+            startForeground(1, notification)
 
             return START_NOT_STICKY
         }
